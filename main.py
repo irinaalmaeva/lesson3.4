@@ -13,3 +13,9 @@ for student in selected_students:
 
 for student in selected_students:
     students.remove(student)
+
+print("\nоставшиеся студенты после отбора:")
+for student in students:
+    print(student)
+
+
